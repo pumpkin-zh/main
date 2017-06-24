@@ -1,0 +1,19 @@
+$(function(){
+
+	$('.All').click(function(){
+		$(".all").show('600');
+		$(".all").toggleClass("animation");
+	});
+	$('.Young').click(function(){
+		$(".young").show('600');
+		$(".dream,.abort").hide('600');
+	});
+	$('.Dream').click(function(){
+		$(".dream").show('600');
+		$(".young,.abort").hide('600');
+	});
+	$('.Abort').click(function(){
+		$(".abort").show('600');
+		$(".young,.dream").hide('600');
+	});
+});

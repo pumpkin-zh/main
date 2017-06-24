@@ -1,0 +1,41 @@
+/****
+	页面样式
+****/
+.top{
+	background: #226039 url("../img/bg.jpg") no-repeat scroll center 0; 
+	height: 300px;
+	margin-bottom: 0;
+}
+.photo-list{
+	overflow: hidden;
+	min-height: 274px;
+}
+.navbar-toggle span{
+	color:#fff;
+}
+.main-nav{
+	position: relative;
+	top:-50px;
+	left: 0;
+	background-color:rgba(56, 134, 72, 0.7);
+	border:none;
+}
+.navbar-default .navbar-nav > li > a{
+	color:#fff;
+	font-size: 16px;
+}
+.navbar-default .navbar-nav{
+	margin-left:50%;
+	transform: translateX(-50%);
+}
+.photo{
+	transition:transform 1s;
+}
+.animation{
+	transform: rotate(360deg);
+}
+@media (max-width:768px){
+	.thumbnail .caption{
+		font-size: 12px;
+	}
+}
